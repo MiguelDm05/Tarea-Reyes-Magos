@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Regalo</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/crear-regalo.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Añadir Regalo</h1>
+        <form action="#" method="POST" id="form-regalo">
+            <label for="nombre-regalo">Nombre del Regalo:</label>
+            <input type="text" id="nombre-regalo" name="nombre" placeholder="Ingresa el nombre del regalo">
+
+            <label for="imagen-regalo">Imagen del Regalo:</label>
+            <input type="file" id="imagen-regalo" name="imagen">
+
+            <button type="submit">Añadir Regalo</button>
+        </form>
+
+        <button id="ver-listado-regalos">Ver Listado</button>
+
+        <div id="listado-regalos"></div>
+
+        <a href="../index.html"><button>Inicio</button></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('fondo.webp') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #FFD700;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Verdana', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #c2185b; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px;
+    transition: background-color 0.3s, transform 0.2s ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05); 
+}
+
+button:active {
+    transform: scale(0.98); 
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#listado-ninos {
+    margin-top: 20px;
+    color: #FFD700;
+    text-align: left;
+}
+
+#listado-ninos ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#listado-ninos li {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#listado-ninos li button {
+    background-color: #c2185b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#listado-ninos li button:hover {
+    background-color: #d32f2f;
+}
+
+#listado-reyes {
+    margin-top: 20px;
+    color: #FFD700;
+    text-align: left;
+}
+
+#listado-reyes ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#listado-reyes li {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#listado-reyes li button {
+    background-color: #c2185b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#listado-reyes li button:hover {
+    background-color: #d32f2f;
+}
+
+#listado-regalos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listado-regalos li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #FFD700;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#listado-regalos li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#listado-regalos li button:hover {
+    background-color: #d32f2f;
+}
